@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-sass",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w SCSS/ -o dist/css/ --recursive"
+  },
+  "author": "Elviredev",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
